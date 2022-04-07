@@ -26,7 +26,7 @@ export const Inventory = ({ inventory, currencyFilter, dispatch }) => {
                 <h3>{name}</h3>
                 <h3 className="price">
                     {getCurrencySymbol(currencyFilter)}
-                    {/* {displayPrice.toFixed(2)} {currencyFilter} */}
+                    {displayPrice.toFixed(2)} {currencyFilter}
                 </h3>
                 <button
                     // onClick={() => onClickHandler(inventoryItem)}
