@@ -27,3 +27,7 @@ export function getCurrencySymbol(currencyFilter) {
             return '';
     }
 }
+
+export function getFilteredItem(inventory, searchTerm) {
+    return inventory.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()))
+}
