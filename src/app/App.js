@@ -17,7 +17,11 @@ export const App = props => {
                 currencyFilter={state.currencyFilter}
                 dispatch={dispatch}
             />
-            <Cart />
+            <Cart
+                cart={state.cart}
+                dispatch={dispatch}
+                currencyFilter={state.currencyFilter}
+            />
         </div>
     )
 }
